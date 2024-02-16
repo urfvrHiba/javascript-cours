@@ -27,10 +27,13 @@ document.querySelector(".clickna").addEventListener("click",()=>{
     paragraph.innerHTML ="paragraph";
     paragraph.style.Color = "blue";
     parent.append(paragraph);
+    
 
 })
-document.prepend(nom);
-document.querySelector("clickna").remove()
+    document.prepend();
+    document.querySelector("clickna").remove()
+    
+
 
 
 
