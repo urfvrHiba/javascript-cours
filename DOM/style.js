@@ -30,9 +30,8 @@ document.querySelector(".clickna").addEventListener("click",()=>{
     
 
 })
-    parent.prepend();
+    parent.prepend(enfant);
     document.querySelector("clickna").remove()
-    
 
 
 
