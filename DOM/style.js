@@ -9,7 +9,7 @@ enfant.style.backgroundColor = "violet"
 const nom = document.createElement("input")
 nom.innerHTML ="nom"
 nom.style.Color = "gray"
-parent.append(nom)
+//parent.append(nom)
 
 const paragraph= document.createElement("h2")
 paragraph.innerHTML ="paragraph"
@@ -44,8 +44,22 @@ document.querySelector(".suprimer").addEventListener("click",()=>{
     parent.remove(paragraph);
     
 
-})
 
+})
+document.querySelector(".remplacer").addEventListener("click",()=>{
+   let ancefant = document.querySelector(".titre1")
+   let nouveauenfant = document.querySelector(".titre2")
+   parent.replacechild(nouveauenfant,ancefant)
+
+
+})
+document.querySelector(".cree-dev").addEventListener("click",()=>{
+    let newdiv = document.createElement("div")
+    newdiv.classList.add("Section-2")
+    newdiv.classList.add("ancadrer")
+    document.body.append
+}
+)
 
 
 
