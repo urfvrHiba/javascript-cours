@@ -28,8 +28,9 @@ document.querySelector(".clickna").addEventListener("click",()=>{
     paragraph.style.Color = "blue";
     parent.append(paragraph);
 
-}
-)
+})
+document.prepend(nom);
+document.querySelector("clickna").remove()
 
 
 
