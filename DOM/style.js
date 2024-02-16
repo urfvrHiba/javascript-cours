@@ -30,8 +30,21 @@ document.querySelector(".clickna").addEventListener("click",()=>{
     
 
 })
-    parent.prepend(enfant);
-    document.querySelector("clickna").remove()
+
+document.querySelector(".suprimer").addEventListener("click",()=>{
+    const parent = document.querySelector(".saission1");
+    const enfant = document.createElement("h1");
+    enfant.innerHTML ="learn this";
+    enfant.style.backgroundColor = "violet"; 
+    parent.remove(enfant);
+
+    const paragraph= document.createElement("h2");
+    paragraph.innerHTML ="paragraph";
+    paragraph.style.Color = "blue";
+    parent.remove(paragraph);
+    
+
+})
 
 
 
