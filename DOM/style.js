@@ -26,7 +26,7 @@ document.querySelector(".clickna").addEventListener("click",()=>{
     const paragraph= document.createElement("h2");
     paragraph.innerHTML ="paragraph";
     paragraph.style.Color = "blue";
-    parent.append(paragraph);
+    parent.append(paragraph);                                                                            
     
 
 })
@@ -57,7 +57,7 @@ document.querySelector(".cree-dev").addEventListener("click",()=>{
     let newdiv = document.createElement("div")
     newdiv.classList.add("Section-2")
     newdiv.classList.add("ancadrer")
-    document.body.append
+    document.body.append("")
 }
 )
 
